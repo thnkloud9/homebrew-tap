@@ -7,10 +7,10 @@ class Newscoop < Formula
   url "https://github.com/sourcefabric/Newscoop/archive/4.4.6.tar.gz"
   sha1 ""
 
-  depends_on :php56 
-  depends_on :php56-pdo-pgsql 
-  depends_on :postgresql
-  depends_on :composer
+  depends_on "php56"
+  depends_on "php56-pdo-pgsql"
+  depends_on "postgresql"
+  depends_on "composer"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
