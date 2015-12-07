@@ -5,7 +5,7 @@
 class Newscoop < Formula
   homepage "https://github.com/sourcefabric/Newscoop"
   url "https://github.com/sourcefabric/Newscoop/archive/4.4.6.tar.gz"
-  sha1 ""
+  sha1 "3d150201408349c0ec9618ef5e093a2398b86b6f6b81fbf2692fb253762f2c69"
 
   depends_on "php56"
   depends_on "php56-pdo-pgsql"
