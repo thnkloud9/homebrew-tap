@@ -9,8 +9,8 @@ class Newscoop < Formula
   sha1 "da4396410b03f1174b9e5372da61adb564f9bd0b"
 
   depends_on "php56"
-  depends_on "php56-pdo-pgsql"
-  depends_on "postgresql"
+  depends_on "php56-intl"
+  depends_on "mysql"
   depends_on "composer"
 
   def install
